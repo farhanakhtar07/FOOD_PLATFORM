@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0.5;
+}
+body{
+    background-color: rgb(233, 225, 217);
+}
+header h1{
+    font-size:3rem;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(224, 199, 31);
+    margin: .5rem;
+}
+header p{
+    font-style: italic;
+    color: black;
+    font-size: x-large;
+    margin-left: .5rem;
+}
+.bar{
+    display: flex;
+    margin-top: 2rem;
+}
+.box1{
+    width: 75%;
+    height: 22rem;
+    display: flex;
+    align-items: center;
+    background-color: azure;
+}
+.box1 h2{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(61, 20, 185);
+
+}
+.box2 img{
+    width: 100%;
+    height: 22rem;
+}
+section h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: rgb(61, 20, 182);
+    margin-top : 2rem;
+}
+.box-line {
+    border: 2px solid black;
+    display: flex;
+}
+.item-image{
+    border: 2px solid red;
+    height: 10rem;
+    width: 30rem;
+}
+.item-name{
+    border: 2px solid blue;
+    height: 6rem;
+}
+.a img{
+    height: 20rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: .5rem;
+}
+.a{
+    padding: 1.5rem;
+}
+section h3{
+    font-size: 2rem;
+}
+ol.rank{
+    list-style-type: lower-roman;
+}
+li{
+    list-style-type: decimal;
+    padding:.1rem;
+    margin: 1rem;
+}
+section p{
+    font-size: larger;
+    opacity: .6;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+table th,td{
+    border: 2px solid black;
+    width: 20rem;
+    padding: .5rem;
+}
+table td{
+    text-align: start;
+    padding: .5rem;
+}
+table td:hover,th:hover{
+    cursor: grab;
+    background-color: lightblue;
+}
+footer p{
+    color: white;
+    background-color: black;
+    padding: 2rem;
+    border-radius: 50%;
+    text-align: center;
+}
